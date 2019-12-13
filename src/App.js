@@ -4,7 +4,7 @@ import './App.css';
 import Practice from "./Practice";
 
 function App() {
-  var [count,setCount]=useState(0);
+  var [count,setCount]=useState(0)
 
   return (
     <div className="App">

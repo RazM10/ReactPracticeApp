@@ -6,11 +6,9 @@ const Practice=(props)=>{
             <p>{props.count}</p>
         
 
-            <button onClic={()=>
-                {
-                    props.setCounter(props.count+1)
-                }
-            }>Add</button>
+            <button onClick={()=>{
+                    props.setCount(props.count+1)
+            }}>Add</button>
         </div>
     );
 };
