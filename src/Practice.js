@@ -7,7 +7,11 @@ const Practice=(props)=>{
         
 
             <button onClick={()=>{
-                    props.setCount(props.count+1)
+                    props.setCount(props.count+1);
+                    if(props.count%2 === 0)
+                        document.body.style = 'background: red;';
+                    else
+                        document.body.style='background: green;';
             }}>Add</button>
         </div>
     );
