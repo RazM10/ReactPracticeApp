@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 
 const Practice=(props)=>{
+    var [color,setColor]=useState('red');
     return(
         <div>
+            <p>{color}</p>
             <p>{props.count}</p>
         
 
